@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("./Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Philosopher-Bold';
+    src: url("./Philosopher-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'medium-500';
+    src: url("./Roboto-Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    height: 4022px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+.image {
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.ul {
+    list-style-type: none;
+    margin-left: 100px;
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+
+}
+
+.box {
+    text-decoration: none;
+}
+
+.btn {
+    margin-left: 400px;
+    margin-top: 40px;
+    width: 155px;
+    height: 46px;
+    border-radius: 5px;
+    background: #DC780B;
+    color: white;
+
+}
+
+
+
+.main {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.making {
+    width: 555px;
+    height: 356px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+
+.Making-time {
+    font-family: 'Philosopher-Bold';
+    width: 555px;
+    height: 161px;
+    /* left: 150px; */
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    color: #150C01;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.text {
+    width: 555px;
+    height: 43px;
+    /* left: 150px */
+    opacity: 0.7px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #150C01;
+    margin-bottom: 40px;
+}
+
+.btn-box {
+    display: flex;
+    gap: 30px;
+}
+
+.btnn {
+    width: 158px;
+    height: 60px;
+    border-radius: 5px;
+    background: #DC780B;
+    border: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    font-family: 'medium-500';
+}
+
+.batnn {
+    width: 158px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1.5px solid #DC780B;
+    font-family: 'medium-500';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #DC780B;
+}
+
+.images {
+    width: 700px;
+    height: 600px;
+    top: 121px
+}
+
+.ABOUT-US {
+    display: flex;
+    gap: 50px;
+}
+
+.section {
+    width: 1140px;
+    height: 500px;
+    margin-left: 151px;
+
+}
+
+.otadiv {
+    width: 488px;
+    height: 315px;
+    border-radius: 5px;
+
+}
+
+.about {
+    width: 110px;
+    height: 16px;
+    opacity: 0.7px;
+    font-family: 'medium-500';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    color: #DC780B;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.Food-Stalls {
+    width: 487px;
+    height: 112px;
+    font-family: 'Philosopher-Bold';
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    color: #150C01;
+    margin-bottom: 30px;
+}
+
+.There-are {
+    width: 487px;
+    height: 76px;
+    opacity: 0.7px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #150C01;
+    margin-bottom: 30px;
+}
+
+.read {
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+    background: #DC780B;
+    font-family: 'medium-500';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    border: transparent;
+}
+
+.one {
+
+    margin-top: 100px;
+}
+
+.menu {
+    width: 1140px;
+    height: 1358px;
+    margin-left: 150px;
+}
+
+.menu_1 {
+    width: 55px;
+    height: 24px;
+    opacity: 0.7px;
+    font-family: 'medium-500';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    background: #DC780B;
+}
+
+.food_2 {
+    width: 325px;
+    height: 24px;
+    margin-left: 556px;
+    font-family: 'Philosopher-Bold';
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #150C01;
+}
+
+.there-are {
+    width: 748px;
+    height: 64px;
+    opacity: 0.7px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #150C01;
+}
+
+.card11 {
+    width: 1140px;
+    height: 1358px;
+    margin-left: 150px;
+}
