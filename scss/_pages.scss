@@ -1,0 +1,14 @@
+.detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding: 50px;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+    img {
+        max-width: 100%;
+    }
+}
