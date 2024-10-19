@@ -1,18 +1,23 @@
 const products = document.querySelector(".products")
 const click = document.querySelector(".click")
+const add = document.querySelector(".see_more")
 const LINK = "https://fakestoreapi.com"
+let countL = 4
+let offset = 1
 
-async function getData(endpoint) {
-    const response = await fetch(`${LINK}/${endpoint}`)
+async function getData(endpoint, count) {
+    const response = await fetch(`${LINK}/${endpoint}?limit=${countL * count}`)
     response
         .json()
         .then(res => createProduct(res))
         .catch(err => console.log(err))
 }
-
-getData("products")
+getData("products", offset)
 
 function createProduct(data) {
+    while (products.firstChild) {
+        products.firstChild.remove()
+    }
     console.log(data[0]);
     data.forEach(prod => {
         const card = document.createElement("div")
@@ -33,3 +38,8 @@ function createProduct(data) {
         products.appendChild(card)
     });
 }
+
+add.addEventListener("click", () => {
+    offset++
+    getData("products", offset)
+})

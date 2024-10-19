@@ -116,13 +116,6 @@
     overflow: hidden;
     cursor: pointer;
 
-    &:hover {
-        .main_image {
-            transform: scale(.9);
-            transition: .5s;
-        }
-    }
-
     .main_image {
         width: 100%;
         height: 100%;
@@ -141,11 +134,6 @@
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-
-    &:hover {
-        transform: scale(.9);
-        transition: .5s;
-    }
 
     .browse_text {
         font-size: 16px;
@@ -232,12 +220,6 @@
     flex-direction: column;
     margin: 100px auto 0px auto;
 
-    &:hover {
-        transform: scale(.9);
-        transition: .5s;
-    }
-
-
     .product_red {
         color: #DB4444;
         display: flex;
@@ -318,6 +300,26 @@
 
         }
     }
+
+    .see_more {
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #00FF66;
+        color: white;
+        font-size: 18px;
+        border: transparent;
+        margin: 0 auto;
+        transition: .5s;
+        cursor: pointer;
+
+        &:hover {
+            background: none;
+            border: 1px solid #00FF66;
+            transition: .5s;
+            color: #00FF66;
+        }
+    }
 }
 
 .categories {
@@ -332,11 +334,6 @@
     align-items: center;
     justify-content: space-between;
     transition: .5s;
-
-    &:hover {
-        transform: scale(.9);
-        transition: .5s;
-    }
 
     .categore_left_content {
         display: flex;
@@ -425,12 +422,6 @@
     gap: 60px;
     margin: 0 auto;
     margin-top: 100px;
-    transition: .5s;
-
-    &:hover {
-        transform: scale(.9);
-        transition: .5s;
-    }
 
     .feat_text {
         font-size: 16px;
@@ -632,12 +623,6 @@
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 150px;
-    transition: .5s;
-
-    &:hover {
-        transform: scale(.9);
-        transition: .5s;
-    }
 
     .service_child {
         display: flex;
